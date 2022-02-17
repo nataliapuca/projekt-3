@@ -1,0 +1,28 @@
+.Post{
+    min-width: 20vw;
+    color: white;
+    min-height: 20vh;
+    border: 3px solid #61dafb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: justify;
+    background-color: #282c34;
+}
+.button-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 10px;
+    text-align: justify;
+}
+.remove {
+    background-color: lightcoral;
+    border-color: lightcoral;
+    min-width: 112px;
+}

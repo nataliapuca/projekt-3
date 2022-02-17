@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-bottom: 3px solid #61dafb;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ContainerA{
+  background-color: pink;
+  min-height: 80vh;
+  padding: 15px;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  row-gap: 10px;
+  justify-content: space-between;
+}
+.ContainerB{
+  background-color: pink;
+  min-height: 80vh;
+  padding: 15px;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 10px;
+  justify-content: space-between;
+}

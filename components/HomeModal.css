@@ -1,0 +1,38 @@
+.Modal{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0,0,0,.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.Window{
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  justify-content: space-around;
+  height: 30vh;
+  width: 30vw;
+  position: fixed;
+}
+
+.button-container
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 10px;
+  text-align: justify;
+}
+.remove {
+  background-color: lightcoral;
+  border-color: lightcoral;
+  min-width: 112px;
+}
